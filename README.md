@@ -1,2 +1,2 @@
 # appcircle-publish-playstore-distribute-to-track
-appcircle-publish-playstore-distribute-to-track component
+Distributes the binary to the distribution tracks on Google Play.
