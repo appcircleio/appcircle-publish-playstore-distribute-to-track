@@ -11,7 +11,7 @@ processFilename: bash
 processArguments: '%AC_STEP_TEMP%/main.sh'
 inputs:
 - key: "AC_STACK_TYPE"
-  defaultValue: "Select"
+  defaultValue: ""
   isRequired: true
   editorType: select
   title: Track type for submit
