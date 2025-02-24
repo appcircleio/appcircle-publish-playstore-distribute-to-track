@@ -26,6 +26,14 @@ inputs:
   description: "Allows you to specify draft, partial, or completed app statuses on the Google Play Console. The partial app status starts the app distribution at 10% by default, which can be adjusted later."
   options: "completed,draft,partial"
   helpText:
+- key: "AC_AUTO_SEND_PLAYSTORE_REVIEW"
+  defaultValue: ""
+  isRequired: true
+  editorType: select
+  title: Auto send for review
+  description: "Select whether your changes should automatically go for review on the Google Play Console."
+  options: "ServerCallRequiredToGetValues"
+  helpText:
 - key: "AC_RELEASE_NOTES"
   editorType: textarea
   isRequired: false
