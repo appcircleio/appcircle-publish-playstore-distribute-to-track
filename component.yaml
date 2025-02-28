@@ -15,7 +15,7 @@ inputs:
   isRequired: true
   editorType: select
   title: Track type for submit
-  description: "Select a release track to which to distribute the binary."
+  description: "Select a release track to which to distribute the binary. A valid Google API key is required to list tracks."
   options: "ServerCallRequiredToGetValues"
   helpText:
 - key: "AC_RELEASE_STATUS"
