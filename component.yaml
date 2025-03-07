@@ -6,6 +6,7 @@ buildPlatform:
 displayName: "Distribute to Track"
 description: "Distributes the binary to the distribution track on Google Play Console"
 marketPlace: "GooglePlayStore"
+docsUrl: https://docs.appcircle.io/publish-integrations/android-publish-integrations/distribute-to-track
 precedingComponents: "appcircle_publish_send_to_playstore"
 processFilename: bash
 processArguments: '%AC_STEP_TEMP%/main.sh'
